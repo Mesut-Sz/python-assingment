@@ -1,0 +1,11 @@
+age = input("Are you a cigarette addict older than 75 years old? (can be assigned only evet/hayır)".title().strip())
+if age == "evet" :
+    print("You are so old so you are in risk group, be careful")
+choronic = input("Do you have a severe chronic disease?  (can be assigned only True/False)".title().strip())
+if choronic == "evet" :
+    print("You have a chronic disease so you are in risk group, be careful")
+immune =input("Is your immune system too weak? (can be assigned only True/False) ".title().strip())
+if immune == "evet" :
+    print("Your immune system is weak so you are in risk group, be careful")
+else :
+    print("You are not risky group")
